@@ -30,6 +30,7 @@ const agendamento = new Schema({
     type: Number,
     required: true
   },
+  
   valor:{
     type: Number,
     required: true
