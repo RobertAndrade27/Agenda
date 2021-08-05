@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-const URI = "mongodb+srv://salaoUser:GNnOpqKJ32DupaC8@cluster0.9rjug.mongodb.net/salao?retryWrites=true&w=majority"; 
+const URI = "mongodb+srv://salaoUser:dVQyWVQWKZJFo6g1@cluster0.9rjug.mongodb.net/salao?retryWrites=true&w=majority"; 
 
-// GNnOpqKJ32DupaC8
+// dVQyWVQWKZJFo6g1
 
 mongoose.set("useNewUrlParser", true);
 mongoose.set("useFindAndModify", false);
