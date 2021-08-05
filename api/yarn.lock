@@ -123,7 +123,7 @@ busboy-body-parser@^0.3.2:
     bytes "^2.0.0"
     debug "^2.1.0"
 
-busboy@*:
+busboy@*, busboy@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/busboy/-/busboy-0.3.1.tgz#170899274c5bf38aae27d5c62b71268cd585fd1b"
   integrity sha512-y7tTxhGKXcyBxRKAni+awqx8uqaJKrSFSNFSeRG5CsWNdmy2BIK+6VGWEW7TZnIO/533mtMEA4rOevQV815YJw==

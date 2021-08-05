@@ -1,10 +1,6 @@
 const mongoose = require("mongoose");
 
-require('dotenv').config()
-
-const URI = process.env.MONGO_SERVER_KEY; 
-
-// dVQyWVQWKZJFo6g1
+const URI = process.env.MONGO_SERVER_KEY;
 
 mongoose.set("useNewUrlParser", true);
 mongoose.set("useFindAndModify", false);
