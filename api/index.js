@@ -18,6 +18,7 @@ app.use(cors());
 app.set("port", 3001);
 
 app.use("/salao", require("./src/routes/salao.routes"));
+app.use("/servico", require("./src/routes/servico.routes"));
 
 app.listen(app.get("port"), () => {
   console.log(`Api está rodando na porta  ${app.get("port")}`);

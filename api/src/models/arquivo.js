@@ -8,7 +8,7 @@ const arquivo = new Schema({
   },
   model:{
     type: String,
-    required: true.valueOf,
+    required: true,
     enum: ['Servico', 'Salao']
   },
   caminho: {
@@ -17,7 +17,7 @@ const arquivo = new Schema({
   },
   dataCadastro: {
     type: Date,
-    default: Data.now
+    default: Date.now
   },
 });
 
