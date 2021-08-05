@@ -1,5 +1,8 @@
 const mongoose = require("mongoose");
-const URI = "mongodb+srv://salaoUser:dVQyWVQWKZJFo6g1@cluster0.9rjug.mongodb.net/salao?retryWrites=true&w=majority"; 
+
+require('dotenv').config()
+
+const URI = process.env.MONGO_SERVER_KEY; 
 
 // dVQyWVQWKZJFo6g1
 
